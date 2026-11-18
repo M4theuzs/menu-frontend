@@ -21,7 +21,7 @@ export function SpotButtom(){
     return (
     <div className="flex items-center justify-center">
         <button
-            className="flex cursor-pointer flex-col items-center gap-1 rounded-2xl px-6 py-4 text-brand-foreground
+            className="flex cursor-pointer flex-col items-center gap-1 rounded-2xl px-6 py-4 text-foreground
             transition-colors hover:bg-primary hover:text-brand-foreground"
             onClick={() => setDialogOpen(true)}
         >
